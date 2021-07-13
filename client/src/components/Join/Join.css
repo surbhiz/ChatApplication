@@ -1,0 +1,100 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  .chatlogo{
+    width: 7%;
+
+  }
+  .chatlogo1{
+    width: 12%;
+
+  }
+  .OuterContainer {
+    background-color:aliceblue;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    
+  }
+  .mainheading{
+    font-family:Lucida;
+  }
+  .subheading{
+    color: slategray;
+    font-family: Lucida;
+  }
+  .joinOuterContainer {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5% ;
+    margin-left: 10%;
+    align-items: center;
+    background-color: #1A1A1D;
+  }
+  .otherOuterContainer{
+    width: 40%;
+    float: right;
+    margin-top: 10%;
+    color:royalblue;
+
+  }
+  .joinInnerContainer {
+    width: 60%;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: white;
+    margin-top: 1%;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #2979FF;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+  
